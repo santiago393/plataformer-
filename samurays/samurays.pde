@@ -1,7 +1,5 @@
 //                SAMURAY'S — JUEGO COMPLETO
 
-// VARIABLES DE ESTADO
-// 0 = menú, 1 = juego, 2 = créditos, 3 = game over, 4 = victoria
 int estado = 0;
 
 float bxPlay = 400, byPlay = 250, bw = 200, bh = 60;
@@ -115,6 +113,19 @@ void dibujarCreditos() {
   textAlign(CENTER);
   textSize(60);
   text("CRÉDITOS", width/2, 120);
+
+  textSize(30);
+  text("Santiago De Yta — Creador", width/2, 250);
+
+  textSize(30);
+  text("Saul ugalde vidal — Co-creator", width/2, 300);
+
+  textSize(30);
+  text("Emiliano fuentes — code fixer helper", width/2, 350);
+
+  textSize(30);
+  text("giovanni gael — code fixer master", width/2, 400);
+
 
   textSize(30);
   text("Santiago De Yta — Creador", width/2, 250);
